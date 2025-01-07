@@ -2,7 +2,7 @@
 [![test](https://github.com/suuuuu9/cpu_usage_ros2/actions/workflows/test.yml/badge.svg)](https://github.com/suuuuu9/cpu_usage_ros2/actions/workflows/test.yml)
 ![License](https://img.shields.io/github/license/suuuuu9/Data-Analytics)
 
-CPUの使用率をリアルタイムで出力するROS2パッケージです。
+CPUの使用率をリアルタイムで出力するROS2パッケージです。  
 [psutil](https://psutil.readthedocs.io/en/latest/)ライブラリを使用し使用率[%]を出力します。
 
 ## インストール方法
