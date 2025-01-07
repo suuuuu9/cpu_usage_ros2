@@ -35,7 +35,7 @@ source ~/.bashrc
 このとき別の端末で```ros2 topic echo /cpu_usage```でros2を使ってサブスクライブして確認できます。
 
 ## ノード
-**cpu_usage**
+**cpu_usage**  
 cpuの使用率をパブリッシュします。
 
 ## 必要なソフトウェア
