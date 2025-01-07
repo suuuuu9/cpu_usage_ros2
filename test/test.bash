@@ -1,5 +1,5 @@
 #!/bin/bash
-# SPDX-FileCopyrightText: 2024 Suzuha Kiuchi
+# SPDX-FileCopyrightText: 2025 Suzuha Kiuchi
 # SPDX-License-Identifier: BSD-3-Clause
 
 dir=~
