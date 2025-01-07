@@ -21,13 +21,6 @@ git clone https://github.com/suuuuu9/cpu_usage_ros2.git
 # ビルド
 cd ~/<ワークスペース名>
 colcon build
-source ~/ros2_ws/install/setup.bash
-
-# ３行目のコマンドは、~/.bashrcに書いておくことを推奨します。   
-# 下のコマンドで.bashrcに追記できます。  
-echo 'source ~/ros2_ws/install/setup.bash' >> ~/.bachrc
-# .bashrcに書いてあるとき下のコマンドが代わりにできます。
-source ~/.bashrc
 ```
 
 ## 使い方
