@@ -9,12 +9,11 @@ class Talker(Node):
         super().__init__("talker")
         self.pub = self.create_publisher(Float32, "cpu_usage", 10)
         self.create_timer(0.5, self.cb)
-        self.cpu_usage = psutil.cpu_percent(interval=1)
 
 
     def cb(self):
-        msg = ()
-        msg.data = self.cpu_usage
+        msg = Float32()
+        msg.data = psutil.cpu_percent(interval=None)
         self.pub.publish(msg)
 
 
