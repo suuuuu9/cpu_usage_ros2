@@ -31,8 +31,14 @@ source ~/.bashrc
 ```
 
 ## 使い方
-```ros2 run launch usage.launch.py```で実行できます。
-このとき別の端末で```ros2 topic echo /cpu_usage```でros2を使ってサブスクライブして確認できます。
+```bash
+# 実行
+ros2 run launch usage.launch.py
+```
+このとき別の端末でros2を使ってサブスクライブして確認できます。
+```bash
+ros2 topic echo /cpu_usage
+```
 
 ## ノード
 **cpu_usage**  
