@@ -39,8 +39,8 @@ source ~/.bashrc
 cpuの使用率をパブリッシュします。
 
 ## 必要なソフトウェア
-- Python
-- psutil
+- Python (動作確認済み 3.10)
+- psutil (動作確認済み 5.9.0)
 
 ## テスト環境
 - Ubuntu 22.04 LTS
