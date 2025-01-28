@@ -26,7 +26,7 @@ colcon build
 ## 使い方
 ```bash
 # 実行
-ros2 run cpu_usage_ros2　cpu_usage
+ros2 run cpu_usage_ros2 cpu_usage
 ```
 このとき別の端末でros2を使ってサブスクライブして確認できます。
 ```bash
